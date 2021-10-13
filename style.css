@@ -1,0 +1,263 @@
+
+
+#menu-principal{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #F1F1F1;
+height:5vh;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.menu-principal-link{
+font-size: 1.5rem;
+color: #0C2657;
+text-decoration: none;
+margin: 0.7rem;
+}
+
+.menu-principal-link:last-child{
+margin-right: 10rem;
+}
+
+.nomeprojeto{
+margin-left: 10rem;
+}
+
+.nomeprojeto h1{
+font-family: 'Montserrat';
+font-size: 2rem;
+color: #03BCC4;
+margin: 0.7rem;
+}
+
+#inicio{
+padding: 10px;
+height:90vh;
+background-image: url(images/Wavy_Ppl-12_Single-02\ [Converted].png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+height: 90vh;
+margin: 1rem 10rem;
+
+}
+.inicio-textos{
+text-align: justify;
+position: relative;
+width: 40%;
+top: 25%;
+}
+
+.inicio-textos h1{
+text-transform: uppercase;
+font-size: 5rem;
+position: relative;
+margin-bottom: 3rem;
+}
+
+.inicio-textos p{
+color: #03BCC4;
+font-size: 2rem;
+}
+
+/* Botao "Saiba mais!" animado */
+
+#saibamais{
+position: relative;
+top: 50px;
+display: inline-flex;
+width: 180px;
+height: 55px;
+
+perspective: 1000px;
+}
+
+#saibamais a{
+font-size: 19px;
+letter-spacing: 1px;
+transform-style: preserve-3d;
+transform: translateZ(-25px);
+transition: transform .25s;
+}
+
+#saibamais a:before, #saibamais a:after{
+position: absolute;
+content: "Saiba mais!";
+height: 55px;
+width: 180px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 5px solid #03BCC4;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+#saibamais a:before{
+color: rgb(248, 248, 248);
+background: #03BCC4;
+
+
+transform: rotateY(0deg) translateZ(25px);
+}
+
+
+#saibamais a:after{
+color: #03BCC4;
+background: rgb(248, 248, 248);
+transform: rotateX(90deg) translateZ(25px);
+}
+
+
+#saibamais a:hover{
+transform: translateZ(-25px) rotateX(-90deg);
+}
+
+
+#sobre{
+display: flex;
+align-items: center;
+}
+
+#sobre p{
+font-size: 2rem;
+}
+
+.sobre-texto{
+text-align: justify;
+width: 60%;
+margin: 4rem;
+justify-content: center;
+
+height: 100%;
+
+}
+
+.sobre-imagem{
+background-image:url(images/sobre-julio.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+height: 50vh;
+width: 40%;
+padding: 2rem;
+
+
+
+}
+
+#habilidades{
+height: 70vh;
+background-color:#03BCC4;
+
+}
+
+#habilidades h1{
+color: #0C2657;
+margin: auto;
+}
+
+
+
+
+footer {
+margin-top: auto;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+background-color: #F2F2F2;
+font-size: 1.6rem;
+color: #0C2657;
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+footer i{
+margin: 0 0.5rem;
+color: #0C2657;
+}
+
+#footer-list{
+list-style: none;
+display: flex;
+justify-content: center;
+margin-bottom: 5px;
+/* fix abaixo */
+padding: 0;
+} 
+
+footer p{
+font-size: 1rem;
+margin-bottom: 0.6rem;
+
+}
+
+.footer-link{
+font-size: 1.3rem;
+color: #0C2657;
+text-decoration: none;
+}
+
+.menu-principal-link:hover, .footer-link:hover, footer i:hover{
+color:#03BCC4 ;
+font-weight: bold;
+}
+
+/* Estilos da página de projetos */
+
+#missao{
+display: flex;
+height: 50vh;
+font-size: 1.5rem;
+margin: 3rem;
+}
+
+
+#missao a{
+text-decoration: none;
+color: black;
+}
+
+.missao-texto{
+text-align: justify-all;
+position: relative;
+top:100px;
+margin: 2rem;
+
+}
+
+.missao-img{
+background-image: url(images/ilustradescricao.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+width: 100%;
+margin: auto;
+}
+
+#funcionamento{
+height: 40vh;
+background-color: #03BCC4;
+text-align: justify;
+
+}
+
+.funcionamento-texto{
+width: 70vw;
+position: relative;
+top: 2vh;
+left: 15vw;
+margin: 3rem;
+}
+
+.funcionamento-texto ul{
+font-size: 1.5rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+

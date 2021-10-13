@@ -1,0 +1,53 @@
+/* Fonte Signika => Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+/* Fonte Montserrat => Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+height: 100%;
+}
+
+*{
+margin:0px;
+font-family:'Signika', Helvetica, Arial, sans-serif;
+}
+
+body{
+background-color: rgb(248, 248, 248);
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+
+
+hr{
+border: 0;
+height: 2px;
+background-image: linear-gradient(to right, transparent, #03BCC4, transparent); 
+}
+
+strong{
+color: #03BCC4;
+font-weight: bold;
+}
+
+abbr{
+text-decoration: none;
+font-weight: bold;
+}
+
+h1{
+font-size: 3rem;
+color:rgb(18, 51, 78);
+margin-bottom: 15px;
+}
+
+small{
+position: relative;
+top:10px;
+}
+
+p{
+font-size: 1.5rem;
+}
