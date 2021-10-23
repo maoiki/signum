@@ -4,4 +4,4 @@ Este é o primeiro site que contruí, como desafio proposto pelo programa de ver
 
 ## Bugs conhecidos
 - [ ] Mau funcionamento em telas menores
-- [ ] Favicon pouco reconhecível
+
